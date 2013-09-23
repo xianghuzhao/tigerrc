@@ -7,5 +7,5 @@
     status = auto
 [core]
     editor = vim
-	autocrlf = input
-	safecrlf = warn
+    autocrlf = input
+    safecrlf = warn
