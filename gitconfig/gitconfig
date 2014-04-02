@@ -10,4 +10,4 @@
     autocrlf = input
     safecrlf = warn
 [push]
-	default = simple
+    default = simple
