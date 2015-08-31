@@ -20,6 +20,17 @@ set backupext=.bakvim
 
 set fileencodings=utf-8,gb18030,gbk,gb2312,big5
 
+" Font
+set guifont=Source\ Code\ Pro
+
+" Color
+if has('gui_running')
+    set background=light
+else
+    set background=dark
+endif
+colorscheme solarized
+
 autocmd BufReadPost *
 \ if line("'\"") > 0 && line("'\"") <= line("$") |
 \ exe "normal g`\""|
