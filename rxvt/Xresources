@@ -28,7 +28,7 @@ URxvt*scrollTtyKeypress:              true
 ! URxvt*fading:                         30
 ! URxvt*fadeColor:                      color
 ! URxvt*utmpInhibit:                    boolean
-URxvt*urgentOnBell:                   true
+URxvt*urgentOnBell:                   false
 ! URxvt*visualBell:                     true
 ! URxvt*mapAlert:                       boolean
 ! URxvt*meta8:                          boolean
