@@ -71,14 +71,10 @@ URxvt*mouseWheelScrollPage:           true
 ! URxvt*pointerColor2:                  color
 ! URxvt*borderColor:                    color
 ! URxvt*iconFile:                       file
-! URxvt.font:                           xft:文泉驿等宽微米黑:size=9:Regular:antialias=true,xft:文泉驿等宽微米黑:size=8:Regular:antialias=true
-! URxvt.boldFont:                       xft:文泉驿等宽微米黑:size=9:Bold:antialias=true,xft:文泉驿等宽微米黑:size=8:Bold:antialias=true
-! URxvt*italicFont:                     xft:文泉驿等宽微米黑:size=9:Italic:antialias=true,xft:文泉驿等宽微米黑:size=8:Italic:antialias=true
-! URxvt*boldItalicFont:                 xft:文泉驿等宽微米黑:size=9:Bold Italic:antialias=true,xft:文泉驿等宽微米黑:size=8:Bold Italic:antialias=true
-URxvt.font:                           xft:Source Code Pro:size=10:Medium:antialias=true,xft:Source Code Pro:size=9:Medium:antialias=true
-URxvt.boldFont:                       xft:Source Code Pro:size=10:Black:antialias=true,xft:Source Code Pro:size=9:Black:antialias=true
-URxvt*italicFont:                     xft:Source Code Pro:size=10:Medium Italic:antialias=true,xft:Source Code Pro:size=9:Medium Italic:antialias=true
-URxvt*boldItalicFont:                 xft:Source Code Pro:size=10:Black Italic:antialias=true,xft:Source Code Pro:size=9:Black Italic:antialias=true
+URxvt*font:                           xft:Source Code Pro:size=10:Medium:antialias=true,xft:WenQuanYi Micro Hei Mono:size=9:Regular:antialias=true
+URxvt*boldFont:                       xft:Source Code Pro:size=10:Black:antialias=true,xft:WenQuanYi Micro Hei Mono:size=9:Bold:antialias=true
+URxvt*italicFont:                     xft:Source Code Pro:size=10:Medium Italic:antialias=true,xft:WenQuanYi Micro Hei Mono:size=9:Italic:antialias=true
+URxvt*boldItalicFont:                 xft:Source Code Pro:size=10:Black Italic:antialias=true,xft:WenQuanYi Micro Hei Mono:size=9:Bold Italic:antialias=true
 URxvt*intensityStyles:                false
 ! URxvt*inputMethod:                    name
 ! URxvt*preeditType:                    style
@@ -86,7 +82,7 @@ URxvt*imLocale:                       en_US.UTF-8
 ! URxvt*imFont:                         fontname
 ! URxvt*title:                          string
 ! URxvt*iconName:                       string
-URxvt*saveLines:                      0
+URxvt*saveLines:                      1024
 ! URxvt*buffered:                       false
 URxvt*depth:                          32
 ! URxvt*visual:                         number
@@ -97,7 +93,7 @@ URxvt*depth:                          32
 ! URxvt*internalBorder:                 number
 ! URxvt*borderLess:                     boolean
 URxvt*lineSpace:                      0
-URxvt*letterSpace:                    -1
+URxvt*letterSpace:                    0
 ! URxvt*skipBuiltinGlyphs:              boolean
 ! URxvt*pointerBlankDelay:              number
 ! URxvt*backspacekey:                   string
@@ -106,11 +102,11 @@ URxvt*letterSpace:                    -1
 ! URxvt*modifier:                       modifier
 ! URxvt*cutchars:                       string
 ! URxvt*answerbackString:               string
-! URxvt*secondaryScreen:                boolean
-! URxvt*secondaryScroll:                boolean
+URxvt*secondaryScreen:                true
+URxvt*secondaryScroll:                false
 ! URxvt*perl-lib:                       string
 ! URxvt*perl-eval:                      perl-eval
-! URxvt*perl-ext-common:                string
+! URxvt*perl-ext-common:                vtwheel
 ! URxvt*perl-ext:                       string
 ! URxvt*iso14755:                       boolean
 ! URxvt*iso14755_52:                    boolean
