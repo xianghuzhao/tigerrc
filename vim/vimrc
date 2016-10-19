@@ -21,6 +21,10 @@ set backspace=indent,eol,start
 
 set fileencodings=utf-8,gb18030,gbk,gb2312,big5
 
+set laststatus=2
+let g:airline_theme = 'powerlineish'
+let g:airline_powerline_fonts = 1
+
 " Font
 set guifont=Source\ Code\ Pro
 
