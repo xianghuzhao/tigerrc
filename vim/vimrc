@@ -19,6 +19,9 @@ set scrolloff=3
 set backupext=.bakvim
 set backspace=indent,eol,start
 
+set wildmode=longest,list,full
+set wildmenu
+
 set fileencodings=utf-8,gb18030,gbk,gb2312,big5
 
 set laststatus=2
