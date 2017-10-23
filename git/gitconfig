@@ -9,3 +9,5 @@
     editor = vim
     autocrlf = input
     safecrlf = warn
+[pager]
+    diff = false
