@@ -38,10 +38,12 @@ autocmd BufReadPost *
 \ endif
 
 
-autocmd FileType python setlocal shiftwidth=4 tabstop=4 softtabstop=4
+autocmd FileType python,go setlocal shiftwidth=4 tabstop=4 softtabstop=4
+autocmd FileType sh setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType yaml,json,toml setlocal shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType markdown setlocal textwidth=72
+autocmd FileType text,markdown,tex setlocal textwidth=72
 
 
 " taglist options
