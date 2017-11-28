@@ -32,14 +32,6 @@ let g:airline_powerline_fonts = 1
 " Font
 set guifont=Source\ Code\ Pro
 
-" Color
-if has('gui_running')
-    set background=light
-else
-    set background=dark
-endif
-colorscheme solarized
-
 autocmd BufReadPost *
 \ if line("'\"") > 0 && line("'\"") <= line("$") |
 \ exe "normal g`\""|
@@ -65,8 +57,8 @@ let Tlist_Use_Right_Window = 1
 " curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 call plug#begin('~/.vim/plugged')
 
-Plug 'valloric/youcompleteme'
-"Plug 'ervandew/supertab'
+"Plug 'valloric/youcompleteme'
+Plug 'ervandew/supertab'
 "Plug 'taglist.vim'
 
 Plug 'altercation/vim-colors-solarized'
@@ -75,3 +67,12 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
+
+
+" Color
+if has('gui_running')
+    set background=light
+else
+    set background=dark
+endif
+colorscheme solarized
