@@ -2,8 +2,7 @@
 :backtrace: false
 :bulk_threshold: 1000
 :sources:
-- https://ruby.taobao.org/
-- http://202.38.95.110/rubygems/
+- https://gems.ruby-china.org/
 - http://mirrors.ustc.edu.cn/rubygems/
 :update_sources: true
 :verbose: true
