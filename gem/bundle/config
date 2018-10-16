@@ -2,4 +2,5 @@
 BUNDLE_GEM__COC: 'true'
 BUNDLE_GEM__MIT: 'true'
 BUNDLE_GEM__TEST: rspec
-BUNDLE_MIRROR__HTTPS://RUBYGEMS__ORG/: https://gems.ruby-china.org
+#BUNDLE_MIRROR__HTTPS://RUBYGEMS__ORG/: https://gems.ruby-china.com
+BUNDLE_MIRROR__HTTPS://RUBYGEMS__ORG/: https://mirrors.tuna.tsinghua.edu.cn/rubygems/
