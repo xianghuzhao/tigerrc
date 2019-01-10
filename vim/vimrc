@@ -62,6 +62,7 @@ call plug#begin('~/.vim/plugged')
 "Plug 'valloric/youcompleteme'
 Plug 'ervandew/supertab'
 "Plug 'taglist.vim'
+Plug 'fatih/vim-go'
 
 Plug 'altercation/vim-colors-solarized'
 "Plug 'powerline/fonts'
