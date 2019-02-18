@@ -20,3 +20,4 @@ unsetopt sharehistory
 if [ -f ~/.alias ]; then source ~/.alias; fi
 
 if [ -f ~/.bin ]; then export PATH=~/.bin:$PATH; fi
+if [ -f ~/bin ]; then export PATH=~/bin:$PATH; fi
