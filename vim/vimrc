@@ -63,6 +63,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'ervandew/supertab'
 "Plug 'taglist.vim'
 Plug 'fatih/vim-go'
+Plug 'pangloss/vim-javascript'
 
 Plug 'altercation/vim-colors-solarized'
 "Plug 'powerline/fonts'
