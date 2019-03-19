@@ -54,13 +54,24 @@ let Tlist_Exit_OnlyWindow = 1
 let Tlist_Use_Right_Window = 1
 "let Tlist_WinWidth = 20
 
-" ale
-let g:ale_sign_column_always = 0
-let g:ale_lint_on_enter = 0
+" ale options
 let g:airline#extensions#ale#enabled = 1
+let g:ale_sign_column_always = 0
+let g:ale_lint_on_enter = 1
+let g:ale_lint_on_text_changed = 'normal'
+let g:ale_fixers = {
+\   '*': ['remove_trailing_lines', 'trim_whitespace'],
+\   'javascript': ['prettier', 'eslint'],
+\}
+let g:ale_fix_on_save = 1
+let g:ale_sign_error = '✘'
+let g:ale_sign_warning = '⚠'
+"let g:ale_echo_msg_error_str = 'E'
+"let g:ale_echo_msg_warning_str = 'W'
+let g:ale_echo_msg_format = '[%severity%](%linter%) %code%: %s'
 
 " vim-plug  https://github.com/junegunn/vim-plug
-" Find out plugins in  http://vimawesome.com/
+" Find plugins in  http://vimawesome.com/
 " Install vim-plug with following command:
 " curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 call plug#begin('~/.vim/plugged')
