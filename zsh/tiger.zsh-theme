@@ -22,4 +22,6 @@ if [ -f ~/.alias ]; then source ~/.alias; fi
 if [ -d ~/.bin ] && [ -z $TMUX ]; then export PATH=~/.bin:$PATH; fi
 if [ -d ~/bin ] && [ -z $TMUX ]; then export PATH=~/bin:$PATH; fi
 
+if [ -d ~/go/bin ] && [ -z $TMUX ]; then export PATH=~/go/bin:$PATH; fi
+
 alias ta='tmux attach || tmux'
