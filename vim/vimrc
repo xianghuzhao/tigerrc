@@ -1,7 +1,7 @@
 syntax on
 
 set number
-set relativenumber
+"set relativenumber
 set nowrap
 set hlsearch
 set incsearch
