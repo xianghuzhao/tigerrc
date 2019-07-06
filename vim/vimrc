@@ -71,7 +71,7 @@ let g:ale_sign_warning = '⚠'
 let g:ale_echo_msg_format = '[%severity%](%linter%) %code%: %s'
 
 " vim-plug  https://github.com/junegunn/vim-plug
-" Find plugins in  http://vimawesome.com/
+" Find plugins in http://vimawesome.com/
 " Install vim-plug with following command:
 " curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 call plug#begin('~/.vim/plugged')
