@@ -16,6 +16,9 @@ set softtabstop=4
 set expandtab
 set smarttab
 set scrolloff=3
+
+set mouse=
+
 "set backup
 set backupext=.bakvim
 set backspace=indent,eol,start
