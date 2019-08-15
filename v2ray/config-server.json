@@ -1,0 +1,27 @@
+{
+  "log": {
+    "access": "log/access.log",
+    "error": "log/error.log",
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "protocol": "vmess",
+      "port": 1234,
+      "settings": {
+        "clients": [
+          {
+						"id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+            "alterId": 64
+          }
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
