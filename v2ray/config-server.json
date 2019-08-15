@@ -11,7 +11,7 @@
       "settings": {
         "clients": [
           {
-						"id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+            "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
             "alterId": 64
           }
         ]
