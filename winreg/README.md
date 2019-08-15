@@ -7,5 +7,5 @@
 This makes three changes:
 
 1. `Caps Lock` => `Esc`
-2. `Esc` => `\`~`, this is used for poker2 keyboard
+2. `Esc` => ```/~``, this is used for poker2 keyboard
 3. `Scroll Lock` => `Caps Lock`
