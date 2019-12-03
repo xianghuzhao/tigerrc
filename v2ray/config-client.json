@@ -42,6 +42,13 @@
             ]
           }
         ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "wsSettings": {
+          "path": "/v2ray1234567890"
+        }
       }
     }
   ]
