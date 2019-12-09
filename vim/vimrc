@@ -17,6 +17,7 @@ set expandtab
 set smarttab
 set scrolloff=3
 
+set updatetime=100
 set mouse=
 
 "set backup
@@ -92,7 +93,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'ervandew/supertab'
 Plug 'raimondi/delimitmate'
 
-Plug 'airblade/vim-gitgutter'
+"Plug 'airblade/vim-gitgutter'
+"Plug 'mhinz/vim-signify'
 Plug 'w0rp/ale'
 "Plug 'valloric/youcompleteme'
 "Plug 'taglist.vim'
