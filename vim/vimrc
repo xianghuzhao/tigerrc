@@ -101,6 +101,7 @@ Plug 'w0rp/ale'
 
 Plug 'fatih/vim-go'
 Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 
 Plug 'altercation/vim-colors-solarized'
 "Plug 'powerline/fonts'
