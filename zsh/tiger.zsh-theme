@@ -1,3 +1,7 @@
+# Install oh-my-zsh with:
+# sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
 if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="green"; fi
 
 #PROMPT='%B[%n@%M]%b %{$fg[blue]%}%~%{$reset_color%} $(git_prompt_info)%(!.#.$)
