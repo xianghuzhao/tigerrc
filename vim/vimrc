@@ -101,6 +101,7 @@ Plug 'w0rp/ale'
 "Plug 'taglist.vim'
 
 Plug 'fatih/vim-go'
+Plug 'rust-lang/rust.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'tpope/vim-haml'
