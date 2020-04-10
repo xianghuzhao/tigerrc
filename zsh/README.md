@@ -20,6 +20,12 @@ $ ./install-plugin-theme.sh
 
 ### Powerlevel9k theme
 
+Set the theme:
+
+```shell
+ZSH_THEME="powerlevel9k/powerlevel9k"
+```
+
 Add before `ZSH_THEME` to use "Awesome Powerline" fonts:
 
 ```shell
