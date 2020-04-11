@@ -23,5 +23,7 @@ cp -r plugins/tiger ${zsh_custom_dir}/plugins
 # Install powerlevel10k theme
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${zsh_custom_dir}/themes/powerlevel10k
 
+[ -f ~/.p10k.zsh ] || cp p10k.zsh ~/.p10k.zsh
+
 # Install my theme
 cp themes/tiger.zsh-theme ${zsh_custom_dir}/themes
