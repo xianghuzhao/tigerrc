@@ -32,7 +32,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 ```shell
 plugins=(
     git
-    go
+    golang
     cargo
     zsh-autosuggestions
     zsh-history-substring-search
