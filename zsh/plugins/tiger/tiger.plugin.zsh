@@ -1,3 +1,4 @@
+setopt incappendhistory
 unsetopt sharehistory
 
 [ -f ~/.alias ] && . ~/.alias
