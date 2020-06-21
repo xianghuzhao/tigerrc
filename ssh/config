@@ -1,0 +1,12 @@
+ServerAliveInterval 30
+ForwardX11 yes
+ForwardX11Trusted yes
+
+Host github.com
+  ForwardX11 no
+  ForwardX11Trusted no
+
+Host host
+  HostName host.example.com
+  User user
+  Port 1234
