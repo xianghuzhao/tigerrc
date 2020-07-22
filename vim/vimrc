@@ -100,6 +100,7 @@ Plug 'raimondi/delimitmate'
 Plug 'w0rp/ale'
 "Plug 'valloric/youcompleteme'
 "Plug 'taglist.vim'
+Plug 'davidhalter/jedi-vim'
 
 Plug 'fatih/vim-go'
 Plug 'rust-lang/rust.vim'
