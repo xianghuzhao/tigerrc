@@ -34,6 +34,7 @@ plugins=(
     git
     golang
     cargo
+    docker
     zsh-autosuggestions
     zsh-history-substring-search
     zsh-syntax-highlighting
