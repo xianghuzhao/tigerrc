@@ -10,6 +10,9 @@ unsetopt sharehistory
 [ -d ~/go/bin ] && export PATH=~/go/bin:$PATH
 [ -d ~/.yarn/bin ] && export PATH=~/.yarn/bin:$PATH
 
+HISTSIZE=10000000
+SAVEHIST=10000000
+
 alias ta='tmux attach || tmux'
 
 #POWERLEVEL9K_CONTEXT_TEMPLATE="%n@%M"
