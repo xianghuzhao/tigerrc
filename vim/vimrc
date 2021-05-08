@@ -50,7 +50,7 @@ autocmd FileType sh setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType yaml,json,toml setlocal shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType text,markdown,rst,tex setlocal textwidth=72
+autocmd FileType text,markdown,rst,tex setlocal textwidth=120
 
 
 " taglist options
@@ -71,7 +71,7 @@ let g:ale_linters = {
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
 \   'javascript': ['prettier', 'eslint'],
-\   'python': ['autopep8'],
+\   'python': ['black', 'isort'],
 \}
 let g:ale_fix_on_save = 1
 let g:ale_sign_error = 'X'
@@ -107,6 +107,7 @@ Plug 'rust-lang/rust.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'tpope/vim-haml'
+Plug 'martinda/jenkinsfile-vim-syntax'
 
 Plug 'altercation/vim-colors-solarized'
 "Plug 'powerline/fonts'
