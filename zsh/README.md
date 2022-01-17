@@ -33,7 +33,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
     git
     golang
-    cargo
+    rust
     docker
     zsh-autosuggestions
     zsh-history-substring-search
