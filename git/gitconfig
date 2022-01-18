@@ -14,3 +14,5 @@
     diff = false
 [pull]
     rebase = false
+[http]
+    proxyAuthMethod = basic
