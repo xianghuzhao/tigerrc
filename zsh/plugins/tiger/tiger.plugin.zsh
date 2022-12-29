@@ -4,6 +4,7 @@ unsetopt sharehistory
 [ -f ~/.alias ] && . ~/.alias
 
 [ -d ~/.bin ] && export PATH=~/.bin:$PATH
+[ -d ~/.local/bin  ] && export PATH=~/.local/bin:$PATH
 [ -d ~/bin ] && export PATH=~/bin:$PATH
 
 [ -d /usr/local/go/bin ] && export PATH=/usr/local/go/bin:$PATH
