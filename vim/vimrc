@@ -1,5 +1,7 @@
 syntax on
 
+set encoding=utf-8
+
 set number
 "set relativenumber
 set nowrap
@@ -29,6 +31,8 @@ set wildmenu
 
 set fileencodings=utf-8,gb18030,gbk,gb2312,big5
 
+set signcolumn=yes
+
 set laststatus=2
 let g:airline_theme = 'powerlineish'
 let g:airline_powerline_fonts = 1
@@ -54,7 +58,7 @@ autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType yaml,json,toml,helm setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType text,markdown,rst,tex setlocal textwidth=120
 
-autocmd FileType python let b:coc_suggest_disable=1
+"autocmd FileType python let b:coc_suggest_disable=1
 
 " taglist options
 let Tlist_Show_One_File = 1
@@ -91,21 +95,35 @@ let delimitMate_expand_cr = 1
 let delimitMate_expand_space = 1
 
 
+" load coc settings
+try
+    source ~/.vimrc_coc
+catch
+    " It's OK
+endtry
+
+
 " vim-plug  https://github.com/junegunn/vim-plug
 " Find plugins in http://vimawesome.com/
 " Install vim-plug with following command:
 " curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 call plug#begin('~/.vim/plugged')
 
-Plug 'ervandew/supertab'
+Plug 'altercation/vim-colors-solarized'
+Plug 'morhetz/gruvbox'
+"Plug 'powerline/fonts'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+"Plug 'ervandew/supertab'
 Plug 'raimondi/delimitmate'
 
 "Plug 'airblade/vim-gitgutter'
 "Plug 'mhinz/vim-signify'
-Plug 'w0rp/ale'
+"Plug 'w0rp/ale'
 "Plug 'valloric/youcompleteme'
 "Plug 'taglist.vim'
-Plug 'davidhalter/jedi-vim'
+"Plug 'davidhalter/jedi-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'sebdah/vim-delve'
 
@@ -117,11 +135,6 @@ Plug 'tpope/vim-haml'
 Plug 'martinda/jenkinsfile-vim-syntax'
 Plug 'towolf/vim-helm'
 
-Plug 'altercation/vim-colors-solarized'
-"Plug 'powerline/fonts'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-
 call plug#end()
 
 
@@ -131,4 +144,5 @@ if has('gui_running')
 else
     set background=dark
 endif
-colorscheme solarized
+"colorscheme solarized
+colorscheme gruvbox

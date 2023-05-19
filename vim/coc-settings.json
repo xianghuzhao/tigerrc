@@ -1,0 +1,12 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [],
+
+  "suggest.noselect": true,
+
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.formatting.provider": "black",
+  "pyright.organizeimports.provider": "isort",
+  "pyright.inlayHints.variableTypes": true
+}
