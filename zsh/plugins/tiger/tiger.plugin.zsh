@@ -15,6 +15,7 @@ HISTSIZE=10000000
 SAVEHIST=10000000
 
 alias ta='tmux attach || tmux'
+alias tmux-tab='tmux -S ~/.tmux/server/tab/default.sock -f ~/.tmux/server/tab/tmux.conf'
 
 #POWERLEVEL9K_CONTEXT_TEMPLATE="%n@%M"
 #POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs newline os_icon)
