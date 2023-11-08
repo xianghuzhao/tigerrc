@@ -4,9 +4,10 @@
   "suggest.noselect": true,
 
   "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
+  "python.linting.ruffEnabled": true,
   "python.linting.mypyEnabled": true,
-  "python.formatting.provider": "black",
-  "pyright.organizeimports.provider": "isort",
-  "pyright.inlayHints.variableTypes": true
+  "python.formatting.provider": "ruff",
+  "pyright.organizeimports.provider": "ruff",
+  "pyright.inlayHints.variableTypes": true,
+  "svelte.enable-ts-plugin": true
 }
