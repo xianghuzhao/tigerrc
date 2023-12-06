@@ -1,7 +1,9 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": [],
-
   "suggest.noselect": true,
+
+  "[python]": {
+    "coc.preferences.formatOnSave": true
+  },
 
   "python.linting.enabled": true,
   "python.linting.ruffEnabled": true,
@@ -9,5 +11,6 @@
   "python.formatting.provider": "ruff",
   "pyright.organizeimports.provider": "ruff",
   "pyright.inlayHints.variableTypes": true,
+
   "svelte.enable-ts-plugin": true
 }
