@@ -1,0 +1,20 @@
+#!/bin/sh
+
+unset TMUX
+unset TMUX_PANE
+
+tmux_cmd="tmux -S $HOME/.tmux/server/tab/default.sock -f $HOME/.tmux/server/tab/tmux.conf"
+
+sn_name=''
+$tmux_cmd has-session -t $sn_name >/dev/null 2>&1
+
+if [ $? != 0 ]; then
+    $tmux_cmd new-session -s "$sn_name" -n mac -d
+    $tmux_cmd new-window -t "$sn_name" -n server1
+    $tmux_cmd new-window -t "$sn_name" -n server2
+    $tmux_cmd new-window -t "$sn_name"
+    $tmux_cmd select-window -t 1
+fi
+
+
+$tmux_cmd attach -t "$sn_name"

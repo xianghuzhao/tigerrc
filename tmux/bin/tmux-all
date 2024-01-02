@@ -1,0 +1,27 @@
+#!/bin/sh
+
+unset TMUX
+unset TMUX_PANE
+
+sn_name='local'
+tmux has-session -t $sn_name >/dev/null 2>&1
+
+if [ $? != 0 ]; then
+    tmux new-session -s $sn_name -d
+    tmux new-window -t $sn_name
+    tmux new-window -t $sn_name
+    tmux select-window -t 1
+fi
+
+sn_name='server'
+tmux has-session -t $sn_name >/dev/null 2>&1
+
+if [ $? != 0 ]; then
+    tmux new-session -s $sn_name -d
+    tmux new-window -t $sn_name
+    tmux new-window -t $sn_name
+    tmux select-window -t 1
+fi
+
+
+tmux attach -t local
