@@ -1,0 +1,80 @@
+services:
+- name: service-0
+  addr: ":3129"
+  handler:
+    type: http
+    chain: chain-0
+    auth:
+      username: user
+      password: pass
+  listener:
+    type: tcp
+- name: service-1
+  addr: ":3130"
+  handler:
+    type: http
+    chain: chain-1
+    auth:
+      username: user
+      password: pass
+  listener:
+    type: tcp
+- name: service-2
+  addr: ":3131"
+  handler:
+    type: http
+    chain: chain-2
+    auth:
+      username: user
+      password: pass
+  listener:
+    type: tcp
+chains:
+- name: chain-0
+  hops:
+  - name: hop-0
+    nodes:
+    - name: node-0
+      addr: domain1.com:443
+      connector:
+        type: http2
+        auth:
+          username: gost
+          password: pass
+      dialer:
+        type: http2
+- name: chain-1
+  hops:
+  - name: hop-1
+    nodes:
+    - name: node-1
+      addr: domain2.com:443
+      connector:
+        type: http2
+        auth:
+          username: gost
+          password: pass
+      dialer:
+        type: http2
+- name: chain-2
+  hops:
+  - name: hop-2
+    nodes:
+    - name: node-2
+      addr: domain3.com:443
+      connector:
+        type: http2
+        auth:
+          username: gost
+          password: pass
+      dialer:
+        type: http2
+log:
+  level: info
+  format: text
+  output: gost.log
+  rotation:
+    maxSize: 20
+    maxBackups: 50
+    localTime: false
+    compress: true
