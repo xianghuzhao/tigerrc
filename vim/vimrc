@@ -26,6 +26,10 @@ set mouse=
 set backupext=.bakvim
 set backspace=indent,eol,start
 
+set directory=~/tmp/vim
+set backupdir=~/tmp/vim
+set undodir=~/tmp/vim
+
 set wildmode=longest,list,full
 set wildmenu
 
