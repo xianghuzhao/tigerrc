@@ -41,3 +41,10 @@ plugins=(
     tiger
 )
 ```
+
+
+### Variable
+
+```shell
+TIGER_HTTP_PROXY=http://localhost:3128
+```

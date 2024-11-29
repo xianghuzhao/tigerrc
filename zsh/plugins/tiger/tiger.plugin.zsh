@@ -17,6 +17,8 @@ SAVEHIST=10000000
 alias ta='tmux attach || tmux'
 alias tmux-tab='tmux -S ~/.tmux/server/tab/default.sock -f ~/.tmux/server/tab/tmux.conf'
 
+alias pxy='http_proxy="$TIGER_HTTP_PROXY" https_proxy="$TIGER_HTTP_PROXY"'
+
 #POWERLEVEL9K_CONTEXT_TEMPLATE="%n@%M"
 #POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs newline os_icon)
 #POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
