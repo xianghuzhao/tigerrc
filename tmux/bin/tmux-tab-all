@@ -14,6 +14,8 @@ if [ $? != 0 ]; then
     $tmux_cmd new-window -t "$sn_name" -n server2
     $tmux_cmd new-window -t "$sn_name"
     $tmux_cmd select-window -t 1
+    $tmux_cmd send-keys 'unset TMUX; unset TMUX_PANE' ENTER
+    $tmux_cmd send-keys 'tmux-all' ENTER
 fi
 
 
