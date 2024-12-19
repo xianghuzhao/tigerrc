@@ -1,7 +1,13 @@
 {
   "suggest.noselect": true,
 
-  "[python]": {
+  "workspace.ignoredFolders": [
+    "$HOME",
+    "$HOME/.cargo/**",
+    "$HOME/.rustup/**"
+  ],
+
+  "[python][rust]": {
     "coc.preferences.formatOnSave": true
   },
 
