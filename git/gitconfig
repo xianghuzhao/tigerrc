@@ -18,6 +18,3 @@
     proxyAuthMethod = basic
 [init]
     defaultBranch = main
-
-[includeIf "gitdir:~/workspace/zhaoxh/"]
-    path = .gitconfig-zhaoxh
