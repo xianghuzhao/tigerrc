@@ -2,7 +2,7 @@
 decorations = "none"
 startup_mode = "Maximized"
 
-[shell]
+[terminal.shell]
 program = "ubuntu"
 
 [selection]
@@ -16,7 +16,7 @@ action = "Paste"
 size = 11.0
 
 [font.normal]
-family = "SauceCodePro Nerd Font"
+family = "SauceCodePro Nerd Font Propo"
 
 # Colors (Gruvbox dark)
 # Default colors
