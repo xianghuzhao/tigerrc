@@ -1,9 +1,17 @@
 [window]
 decorations = "none"
 startup_mode = "Maximized"
+#dynamic_padding = true
+#padding = { x = 32, y = 32 }
 
 [selection]
 save_to_clipboard = true
+
+[font]
+size = 16.0
+
+[font.normal]
+family = "SauceCodePro Nerd Font Propo"
 
 [[keyboard.bindings]]
 key = "V"
@@ -69,12 +77,6 @@ chars = "\u001a\u0038"
 key = "Key9"
 mods = "Command"
 chars = "\u001a\u0039"
-
-[font]
-size = 16.0
-
-[font.normal]
-family = "SauceCodePro Nerd Font Propo"
 
 # Colors (Gruvbox dark)
 # Default colors
