@@ -18,12 +18,26 @@ $ ./install-plugin-theme.sh
 ## Configuration in ~/.zshrc
 
 
-### Powerlevel9k theme
+### Powerlevel10k theme
 
 Set the theme:
 
 ```shell
 ZSH_THEME="powerlevel10k/powerlevel10k"
+```
+
+Move context from right to left. Find the following line in `~/.p10k.zsh`
+
+```
+    context                 # user@hostname
+```
+
+and move it here:
+
+```
+    os_icon                 # os identifier
+    context                 # user@hostname
+    dir                     # current directory
 ```
 
 

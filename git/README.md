@@ -1,7 +1,9 @@
-## Global gitignore
+## Global configuration
 
 ```
-cp config/git/ignore ~/.config/git/ignore
+mkdir -p ~/.config/git
+cp gitconfig ~/.config/git/config
+cp gitignore ~/.config/git/ignore
 ```
 
 ## Optional configuration
