@@ -1,3 +1,9 @@
+## Global gitignore
+
+```
+cp config/git/ignore ~/.config/git/ignore
+```
+
 ## Optional configuration
 
 ```ini
