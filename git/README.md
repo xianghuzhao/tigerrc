@@ -13,7 +13,13 @@ cp gitignore ~/.config/git/ignore
     path = .gitconfig-zhaoxh
 ```
 
-## Git credential manager for wsl
+## Install Git credential manager
+
+<https://github.com/git-ecosystem/git-credential-manager>
+
+### Configuration for wsl
+
+<https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-git>
 
 ```ini
 [credential]
