@@ -36,47 +36,56 @@ chars = "\u001b\u0076"
 [[keyboard.bindings]]
 key = "Key1"
 mods = "Command"
-chars = "\u001a\u0031"
+#chars = "\u001a\u0031"
+chars = "\u001b\u0031"
 
 [[keyboard.bindings]]
 key = "Key2"
 mods = "Command"
-chars = "\u001a\u0032"
+#chars = "\u001a\u0032"
+chars = "\u001b\u0032"
 
 [[keyboard.bindings]]
 key = "Key3"
 mods = "Command"
-chars = "\u001a\u0033"
+#chars = "\u001a\u0033"
+chars = "\u001b\u0033"
 
 [[keyboard.bindings]]
 key = "Key4"
 mods = "Command"
-chars = "\u001a\u0034"
+#chars = "\u001a\u0034"
+chars = "\u001b\u0034"
 
 [[keyboard.bindings]]
 key = "Key5"
 mods = "Command"
-chars = "\u001a\u0035"
+#chars = "\u001a\u0035"
+chars = "\u001b\u0035"
 
 [[keyboard.bindings]]
 key = "Key6"
 mods = "Command"
-chars = "\u001a\u0036"
+#chars = "\u001a\u0036"
+chars = "\u001b\u0036"
 
 [[keyboard.bindings]]
 key = "Key7"
 mods = "Command"
-chars = "\u001a\u0037"
+#chars = "\u001a\u0037"
+chars = "\u001b\u0037"
 
 [[keyboard.bindings]]
 key = "Key8"
 mods = "Command"
-chars = "\u001a\u0038"
+#chars = "\u001a\u0038"
+chars = "\u001b\u0038"
 
 [[keyboard.bindings]]
 key = "Key9"
 mods = "Command"
-chars = "\u001a\u0039"
+#chars = "\u001a\u0039"
+chars = "\u001b\u0039"
 
 # Colors (Gruvbox dark)
 # Default colors
