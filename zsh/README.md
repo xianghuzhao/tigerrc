@@ -53,6 +53,7 @@ plugins=(
     zsh-history-substring-search
     zsh-syntax-highlighting
     tiger
+    uv
 )
 ```
 
