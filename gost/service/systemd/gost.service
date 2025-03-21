@@ -1,0 +1,14 @@
+[Unit]
+Description=GO Simple Tunnel
+After=network.target
+Wants=network.target
+
+[Service]
+User=gost
+Group=gost
+Type=simple
+ExecStart=/opt/deploy/gost/pro/gost -C /opt/deploy/gost/cfg/gost.yml
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
