@@ -1,0 +1,40 @@
+font-family = "SauceCodePro Nerd Font"
+font-style = "Medium"
+font-size = 15
+font-thicken = true
+
+theme = "Gruvbox Dark Hard"
+
+maximize = true
+
+cursor-style = "block"
+#cursor-style-blink = false
+
+copy-on-select = clipboard
+
+keybind = super+ctrl+i=paste_from_clipboard
+keybind = super+v=esc:v
+
+keybind = super+arrow_left=unbind
+keybind = super+arrow_right=unbind
+keybind = super+arrow_up=unbind
+keybind = super+arrow_down=unbind
+
+keybind = super+1=esc:1
+keybind = super+digit_1=esc:1
+keybind = super+2=esc:2
+keybind = super+digit_2=esc:2
+keybind = super+3=esc:3
+keybind = super+digit_3=esc:3
+keybind = super+4=esc:4
+keybind = super+digit_4=esc:4
+keybind = super+5=esc:5
+keybind = super+digit_5=esc:5
+keybind = super+6=esc:6
+keybind = super+digit_6=esc:6
+keybind = super+7=esc:7
+keybind = super+digit_7=esc:7
+keybind = super+8=esc:8
+keybind = super+digit_8=esc:8
+keybind = super+9=esc:9
+keybind = super+digit_9=esc:9

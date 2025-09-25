@@ -1,8 +1,5 @@
 #!/bin/sh
 
-unset TMUX
-unset TMUX_PANE
-
 sn_name='local'
 tmux has-session -t $sn_name >/dev/null 2>&1
 
