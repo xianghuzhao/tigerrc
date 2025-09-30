@@ -16,6 +16,7 @@ $fill\
 ($package[ ](fg:color_fg bg:color_bg))\
 ($c[ ](fg:color_fg bg:color_bg))\
 ($cpp[ ](fg:color_fg bg:color_bg))\
+($golang[ ](fg:color_fg bg:color_bg))\
 ($cmake[ ](fg:color_fg bg:color_bg))\
 ($conda[ ](fg:color_fg bg:color_bg))\
 ($container[ ](fg:color_fg bg:color_bg))\
@@ -26,6 +27,7 @@ $fill\
 ($python[ ](fg:color_fg bg:color_bg))\
 ($ruby[ ](fg:color_fg bg:color_bg))\
 ($rust[ ](fg:color_fg bg:color_bg))\
+($localip[ ](fg:color_fg bg:color_bg))\
 ($username$hostname[ ](fg:color_fg bg:color_bg))\
 $time\
 ([ ](fg:color_fg bg:color_bg)$battery)\
@@ -47,7 +49,7 @@ style = 'fg:248 bg:color_bg'
 
 [status]
 disabled = false
-format = '[$symbol( $common_meaning)( $signal_name)( $signal_number)( $maybe_int) ]($style)'
+format = '[$symbol( $status)( $common_meaning)( $signal_name)( $signal_number)( $maybe_int) ]($style)'
 style = 'bold fg:160 bg:color_bg'
 success_style = 'bold fg:70 bg:color_bg'
 symbol = '✘'
@@ -56,8 +58,8 @@ pipestatus = true
 pipestatus_format = '[$pipestatus]($style)'
 
 [character]
-success_symbol = '[❯](bold fg:76)'
-error_symbol = '[❯](bold fg:196)'
+success_symbol = '[ ](bold fg:76)'
+error_symbol = '[ ](bold fg:196)'
 vimcmd_symbol = '[❮](bold fg:76)'
 vimcmd_replace_one_symbol = '[▶](bold fg:76)'
 vimcmd_replace_symbol = '[▶](bold fg:76)'
@@ -67,6 +69,12 @@ vimcmd_visual_symbol = '[V](bold fg:76)'
 disabled = false
 format = '[$time  ]($style)'
 style = 'fg:66 bg:color_bg'
+
+
+[localip]
+disabled = false
+ssh_only = false
+style = 'fg:yellow bg:color_bg'
 
 
 [fill]
@@ -125,6 +133,11 @@ symbol = " "
 format = '[$symbol($version(-$name) )]($style)'
 style = 'fg:149 bg:color_bg'
 symbol = " "
+
+[golang]
+format = '[$symbol($version(-$name) )]($style)'
+style = 'fg:cyan bg:color_bg'
+symbol = " "
 
 [cmake]
 format = '[$symbol($version )]($style)'
@@ -224,7 +237,7 @@ symbol = "󰏗 "
 
 [python]
 format = '[${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
-style = 'fg:yellow bg:color_bg'
+style = 'fg:green bg:color_bg'
 symbol = " "
 
 [ruby]
