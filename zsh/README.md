@@ -20,6 +20,8 @@ $ ./install-plugin-theme.sh
 
 ### Powerlevel10k theme
 
+> Use starship instead
+
 Set the theme:
 
 ```shell
@@ -54,6 +56,7 @@ plugins=(
     zsh-syntax-highlighting
     tiger
     uv
+    starship
 )
 ```
 
