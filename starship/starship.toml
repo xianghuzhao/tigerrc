@@ -43,7 +43,7 @@ color_bg = '236'
 color_fg = '244'
 
 [cmd_duration]
-min_time = 3000
+min_time = 1000
 format = '[$duration  ]($style)'
 style = 'fg:248 bg:color_bg'
 
@@ -232,7 +232,7 @@ Windows = "󰍲 "
 
 [package]
 format = '[$symbol$version ]($style)'
-style = 'fg:200 bg:color_bg'
+style = 'fg:135 bg:color_bg'
 symbol = "󰏗 "
 
 [python]
