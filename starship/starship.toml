@@ -30,7 +30,7 @@ $fill\
 ($localip[ ](fg:color_fg bg:color_bg))\
 ($username$hostname[ ](fg:color_fg bg:color_bg))\
 $time\
-([ ](fg:color_fg bg:color_bg)$battery)\
+([ ](fg:color_fg bg:color_bg)$battery)\
 [ ](fg:color_bg)
 $character\
 """
@@ -74,6 +74,7 @@ style = 'fg:66 bg:color_bg'
 [localip]
 disabled = false
 ssh_only = false
+format = '[$localipv4 ]($style)'
 style = 'fg:yellow bg:color_bg'
 
 
