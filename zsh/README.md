@@ -1,22 +1,18 @@
 # ZSH Plugins and Themes
 
-
 ## Install oh-my-zsh
 
+```shell
+./install-oh-my-zsh.sh
 ```
-$ ./install-oh-my-zsh.sh
-```
-
 
 ## Install plugins and themes
 
+```shell
+./install-plugin-theme.sh
 ```
-$ ./install-plugin-theme.sh
-```
-
 
 ## Configuration in ~/.zshrc
-
 
 ### Powerlevel10k theme
 
@@ -30,18 +26,17 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 Move context from right to left. Find the following line in `~/.p10k.zsh`
 
-```
+```zsh
     context                 # user@hostname
 ```
 
 and move it here:
 
-```
+```zsh
     os_icon                 # os identifier
     context                 # user@hostname
     dir                     # current directory
 ```
-
 
 ### Plugins
 
@@ -59,7 +54,6 @@ plugins=(
     starship
 )
 ```
-
 
 ### Variable
 

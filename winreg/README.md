@@ -1,3 +1,5 @@
+# Windows Registry
+
 ## Set Caps Lock as Esc
 
 ```

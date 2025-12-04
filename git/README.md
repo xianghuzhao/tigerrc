@@ -1,6 +1,8 @@
+# Git
+
 ## Global configuration
 
-```
+```shell
 mkdir -p ~/.config/git
 cp gitconfig ~/.config/git/config
 cp gitignore ~/.config/git/ignore
@@ -23,5 +25,5 @@ cp gitignore ~/.config/git/ignore
 
 ```ini
 [credential]
-	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
+    helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
 ```

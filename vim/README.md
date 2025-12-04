@@ -1,27 +1,29 @@
+# Vim
+
 ## Configure
 
 Create vim temp directory:
 
-```
+```shell
 mkdir -p ~/tmp/vim
 ```
 
 Copy configuration files:
 
-```
+```shell
 cp vimrc ~/.vimrc
 cp vimrc_coc ~/.vimrc_coc
 ```
 
 ## Install vim-plug and plugins
 
-```
+```shell
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 Run in vim:
 
-```
+```vim
 :PlugInstall
 ```
 
@@ -29,7 +31,7 @@ Run in vim:
 
 <https://github.com/nvm-sh/nvm>
 
-```
+```shell
 nvm install --lts
 ```
 
@@ -39,7 +41,7 @@ nvm install --lts
 
 Run in vim:
 
-```
+```vim
 :CocInstall coc-json
 :CocInstall coc-toml
 :CocInstall coc-yaml
