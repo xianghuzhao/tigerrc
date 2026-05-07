@@ -1,5 +1,8 @@
 [source.crates-io]
-replace-with = 'tsinghua'
+replace-with = 'aliyun'
+
+[source.aliyun]
+registry = "sparse+https://mirrors.aliyun.com/crates.io-index/"
 
 [source.tsinghua]
 registry = "sparse+https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/"
