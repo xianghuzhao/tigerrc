@@ -43,14 +43,17 @@ and move it here:
 ```shell
 plugins=(
     git
+    web-search
     golang
     rust
     docker
+    kubectl
     zsh-autosuggestions
     zsh-history-substring-search
     zsh-syntax-highlighting
     tiger
     uv
+    asdf
     starship
 )
 ```
