@@ -54,6 +54,7 @@ plugins=(
     tiger
     uv
     asdf
+    zoxide
     starship
 )
 ```
