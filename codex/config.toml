@@ -1,0 +1,5 @@
+allow_login_shell = false
+
+[shell_environment_policy]
+inherit = "core"
+#exclude = ["HTTP_PROXY", "HTTPS_PROXY", "http_proxy", "https_proxy"]

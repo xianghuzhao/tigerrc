@@ -3,7 +3,8 @@ decorations = "none"
 startup_mode = "Maximized"
 
 [terminal.shell]
-program = "ubuntu"
+program = "wsl.exe"
+args = ["-d", "Ubuntu-26.04", "--cd", "~"]
 
 [selection]
 save_to_clipboard = true
@@ -17,6 +18,19 @@ size = 11.0
 
 [font.normal]
 family = "SauceCodePro Nerd Font Propo"
+style = "Medium"
+
+[font.bold]
+family = "SauceCodePro Nerd Font Propo"
+style = "Black"
+
+[font.italic]
+family = "SauceCodePro Nerd Font Propo"
+style = "Medium Italic"
+
+[font.bold_italic]
+family = "SauceCodePro Nerd Font Propo"
+style = "Black Italic"
 
 # Colors (Gruvbox dark)
 # Default colors
