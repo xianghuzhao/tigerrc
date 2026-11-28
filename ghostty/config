@@ -12,6 +12,8 @@ cursor-style = "block"
 
 copy-on-select = clipboard
 
+middle-click-action = clipboard-paste
+
 keybind = super+ctrl+i=paste_from_clipboard
 keybind = super+v=esc:v
 
